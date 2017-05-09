@@ -1,0 +1,24 @@
+org.alext.learning.Helpers: Helpers()
+org.alext.learning.UxApp
+org.alext.learning.UxApp: UxApp()
+org.alext.learning.UxApp: void main(java.lang.String[])
+org.alext.learning.UxApp: org.springframework.boot.CommandLineRunner dummy(org.alext.learning.repositories.UserRepository)
+org.alext.learning.controllers.IndexController: org.alext.learning.services.UserService userService
+org.alext.learning.controllers.IndexController: IndexController()
+org.alext.learning.controllers.IndexController: java.lang.String index(org.springframework.ui.Model)
+org.alext.learning.model.User
+org.alext.learning.model.User: java.lang.Long id
+org.alext.learning.model.User: java.lang.String name
+org.alext.learning.model.User: java.lang.String email
+org.alext.learning.model.User: java.lang.Long getId()
+org.alext.learning.model.User: java.lang.String getName()
+org.alext.learning.model.User: java.lang.String getEmail()
+org.alext.learning.model.User: void setId(java.lang.Long)
+org.alext.learning.model.User: void setName(java.lang.String)
+org.alext.learning.model.User: void setEmail(java.lang.String)
+org.alext.learning.model.User: User()
+org.alext.learning.model.User: User(java.lang.Long,java.lang.String,java.lang.String)
+org.alext.learning.services.UserService
+org.alext.learning.services.UserService: org.alext.learning.repositories.UserRepository userRepository
+org.alext.learning.services.UserService: UserService()
+org.alext.learning.services.UserService: java.util.List getAllUsers()
