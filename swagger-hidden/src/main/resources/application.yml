@@ -1,0 +1,11 @@
+management:
+  endpoint:
+    health:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+app:
+  expose-hidden: true
